@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Utility</title>
+		<link rel="stylesheet" href="./styles/output.css" />
+		<!-- <link rel="stylesheet" href="./styles/myCss.css" /> -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="m-[10px]">Test</div>
+		<div class="m-13">Hallo</div>
+
+		<section class="my-10 p-10 font-poppin">
+			<h2 class="mb-4 text-4xl font-bold">
+				Belajar Mengenal Typography pada Tailwindcss
+			</h2>
+			<div class="mb-4">By Ridho Ahmad Fauzi, 1 Januari 2023</div>
+			<p class="mb-4">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+				dolores perferendis provident autem labore repellat veniam error.
+				Inventore, blanditiis quam.
+			</p>
+			<p class="mb-4">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam soluta
+				reprehenderit ratione debitis ipsam reiciendis, nostrum minus? Voluptate
+				possimus nesciunt sint delectus qui quibusdam! Tempora beatae sit
+				assumenda doloribus eligendi.
+			</p>
+		</section>
+
+		<div
+			class="max-w-xl h-96 bg-slate-200 mx-auto mt-[42px] overflow-y-scroll mb-10 bg-fixed"
+			style="
+				background-image: url('https://source.unsplash.com/1000x600?computer');
+			"
+		>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, aut
+				recusandae! Vitae rem iste doloribus facere, nisi vel sapiente sed,
+				harum maxime delectus culpa quam tempore blanditiis mollitia ex placeat
+				porro temporibus ducimus natus, corporis sit sequi error eum beatae.
+				Distinctio, sequi velit animi saepe possimus minima eaque odit
+				voluptatibus dolorem cum doloremque sunt laboriosam est voluptas ea modi
+				earum officiis quibusdam iure. Culpa deserunt, fuga iure quisquam
+				corporis quas quos quam voluptates molestias vitae laudantium iusto quo
+				magnam, excepturi cum porro tempore sed voluptas recusandae. Nam
+				distinctio tempora facilis tenetur placeat vitae, ea doloribus. Ut
+				expedita debitis quidem eligendi ullam vel labore voluptates mollitia
+				placeat doloremque obcaecati illo, libero unde quos porro saepe, quis
+				minus incidunt explicabo alias? Est, saepe. Neque perspiciatis porro
+				quidem alias fugit amet quod sequi autem eveniet quae voluptatem optio
+				aspernatur error dolor nostrum praesentium cupiditate dolore, debitis
+				corrupti reiciendis? Eveniet quod accusantium explicabo quae et, veniam
+				voluptate aspernatur ullam hic incidunt nesciunt voluptas assumenda
+				adipisci consectetur nisi cupiditate eum suscipit ea delectus iusto
+				laborum odio illo soluta labore! Nesciunt sapiente provident porro
+				dolorum possimus, maiores doloremque voluptatem sed saepe officiis,
+				totam recusandae quisquam quo sit obcaecati consequatur! Animi
+				laboriosam temporibus iure iste mollitia in!
+			</p>
+		</div>
+
+		<hr class="my-20" />
+
+		<button
+			class="px-4 py-1 block mx-auto bg-cyan-500 rounded-[6px] font-poppin text-white hover:bg-cyan-700"
+		>
+			Button
+		</button>
+
+		<div
+			class="group/card hover:bg-sky-500 hover:ring-sky-500 max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-poppin"
+		>
+			<h5
+				class="group-hover/card:text-white font-bold text-slate-700 text-lg mb-3"
+			>
+				My Card
+			</h5>
+			<p class="group-hover/card:text-white text-slate-600">
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ab
+				dolorum nesciunt ut optio. Earum placeat blanditiis numquam cum omnis!
+			</p>
+		</div>
+
+		<div
+			class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-poppin"
+		>
+			<form action="#">
+				<label for="email" class="block">
+					<span
+						class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5"
+						>Email</span
+					>
+					<input
+						type="email"
+						id="email"
+						placeholder="Masukan email"
+						class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+					/>
+					<p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
+						Email tidak valid
+					</p>
+				</label>
+			</form>
+		</div>
+
+		<hr class="my-20" />
+
+		<div
+			class="w-40 h-40 bg-sky-500 mx-auto rounded-lg hover:scale-150 hover:rotate-180 transition-transform origin-top-left"
+		></div>
+
+		<div class="w-40 h-40 mt-20 bg-pink-500 mx-auto rounded-lg group">
+			<div
+				class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:scale-150 group-hover:rotate-180 origin-top-left transition-transform"
+			></div>
+		</div>
+
+		<div
+			class="w-40 h-40 mt-20 bg-pink-500 mx-auto rounded-full group animate-bounce"
+		></div>
+
+		<div
+			class="w-40 h-40 mt-20 bg-pink-500 mx-auto rounded-sm group animate-goyangAnim"
+		></div>
+		<hr class="mt-96" />
+	</body>
+</html>
